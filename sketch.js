@@ -93,6 +93,6 @@ function draw() {
   
    //create particle objects
    if (frameCount%60 === 0){
-    particles.push(new Particle(random(width/2-100, width/2+100), 100, 100));
+    particles.push(new Particle(random(width/2-500, width/2+500), 10, 10));
   }
 }
